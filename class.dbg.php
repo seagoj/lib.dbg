@@ -1,9 +1,5 @@
 <?php
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
+print "<div>Start class DBG ".rand()."</div>";
 /**
  * Description of class
  *
@@ -13,7 +9,6 @@ class dbg
 {
     function __construct()
     {}
-
     public function msg($message, $method='', $file='', $line='')
     {
         print "<div class='err'>";
