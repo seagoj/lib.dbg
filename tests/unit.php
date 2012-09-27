@@ -1,5 +1,5 @@
 <?php
-require_once('class.dbg.php');
+require_once('../src/class.dbg.php');
 dbg::setNoCache();
 
 // Test Data

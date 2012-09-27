@@ -13,11 +13,7 @@ namespace seago\devtools;
  */
  
 class dbg {
-	private $files;
-	private $dirs;
-
-	
-    function __construct() {
+	function __construct() {
     	dbg::setNoCache();
     }
     public function msg($message, $die=false, $method='', $exception=false, $file='', $line='')
@@ -110,10 +106,5 @@ class dbg {
   		return $string;
     }
 
-}
-
-if(isset($_REQUEST['unit'])) {
-	//require_once('unit.php');
-	$dbg = new dbg();
 }
 ?>
