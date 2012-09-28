@@ -1,5 +1,5 @@
 <?php
-require_once 'class.dbg.php';
+require_once('../src/class.dbg.php');
 dbg::setNoCache();
 
 // Test Data
@@ -50,7 +50,7 @@ print "<div>dbg::msg() passed all unit tests</div></div><div>&nbsp;</div>";
 
 /*TESTING: dbg::dump()*************************************************/
 print "<div class='function'>";
-foreach ($data as $type=>$value) {
+foreach($data as $type=>$value) {
     print "<div class='test'>";
     $value = var_export($value,true);
     dbg::test(dbg::dump($data[$type],false,"dbg::dump(($type) $value)")=="<div class='err'><span class='errLabel'>dbg::dump(($type) $value)</span>: <span class='errDesc'>$value</span></div>");
