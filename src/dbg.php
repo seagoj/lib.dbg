@@ -52,7 +52,7 @@ class dbg {
     	} else {
     			//dbg::msg("assertion failed");
     		if($die)
-    			 die();
+    			 die("Assertion failed");
     		else
     			return false;
     	}
