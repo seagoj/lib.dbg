@@ -47,10 +47,10 @@ class dbg {
     	assert_options(ASSERT_QUIET_EVAL, false);
     	
     	if(assert($term)) {
-    			dbg::msg("assertion passed");
+    			//dbg::msg("assertion passed");
     		return true;
     	} else {
-    			dbg::msg("assertion failed");
+    			//dbg::msg("assertion failed");
     		if($die)
     			 die();
     		else
