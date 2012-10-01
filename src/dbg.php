@@ -1,16 +1,17 @@
 <?php
-
-namespace seago\devtools;
-
 /**
  * Debug library for PHP
  *
  * @author jds
  *
+ * @TODO	Comment dbg class in accordance to PHPDoc standard
+ * @TODO	Looking into adding detailed info to message on test() failure
  * @TODO	Adjust server level error reporting
  * @TODO	Breakpoints
  * @TODO	Add ability to silence output except for unit tests and failures
  */
+
+namespace seago\devtools;
 
 class dbg
 {

@@ -1,4 +1,8 @@
 <?php
+/**
+ * @TODO	rewrite UnitTest class to resemble PHPUnit tests
+ * @TODO	Comment Unit Tests in accordance with PHPDoc standard
+ */
 require_once('../src/class.dbg.php');
 dbg::setNoCache();
 
