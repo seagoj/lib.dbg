@@ -1,0 +1,3 @@
+[submodule "lib/lib.autoload"]
+	path = lib/lib.autoload
+	url = git://github.com/seagoj/lib.autoload.git
